@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <title>Directory listing for {{path}}</title>
+    <body>
+        <h1>Directory listing for {{path}}</h1>
+        <hr>
+        <ul>
+            {{#each files}}
+                <li>
+                    <a href="{{href}}">{{name}}</a>
+                </li> 
+            {{/each}}
+        </ul>
+        <hr>
+    </body>
+</html>

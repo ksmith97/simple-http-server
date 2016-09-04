@@ -1,0 +1,29 @@
+{
+  "name": "simple-http-server",
+  "version": "1.0.0",
+  "description": "Reimplementation of SimpleHTTPServer in node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test-simple-http-server.js"
+  },
+  "keywords": [
+    "http",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Kevin A Smith",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mime-db": "^1.23.0",
+    "mime-type": "^3.0.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.4.0",
+    "expect": "^1.20.2",
+    "mocha": "^3.0.2"
+  }
+}
